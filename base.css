@@ -1,7 +1,7 @@
 
 html {
-    height: auto;
-    margin-bottom: 175px;
+    height: 300px;
+    margin-bottom: 10px;
   }
   
 body {
@@ -10,11 +10,11 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background: #ef32d9;
+    background: #DCDCDC;
     /* fallback for old browsers */
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-gradient(linear, left top, right top, from(#89fffd), to(#ef32d9));
-    background: linear-gradient(to right, #89fffd, #ef32d9);
+    background: -webkit-gradient(linear, left top, right top, from(#6495ED), to(#DCDCDC));
+    background: linear-gradient(to right, #6495ED,#DCDCDC);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 button{
@@ -24,14 +24,14 @@ nav{
     z-index: 99;
 }  
 section {
-	height: 100%;
+	height: 25%;
 	z-index: 100;
 }
   
   .snow {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 19%;
     top: 0;
     left: 0;
     -webkit-transform: rotateY(-30deg);
@@ -57,48 +57,48 @@ section {
   
   .snow div:nth-child(2) {
     left: 70%;
-    -webkit-animation: falling 17s linear infinite;
-            animation: falling 17s linear infinite;
+    -webkit-animation: falling 7s linear infinite;
+            animation: falling 7s linear infinite;
     -webkit-animation-delay: -3s;
             animation-delay: -3s;
   }
   
   .snow div:nth-child(3) {
     left: 10%;
-    -webkit-animation: falling 23s linear infinite;
-            animation: falling 23s linear infinite;
+    -webkit-animation: falling 3s linear infinite;
+            animation: falling 3s linear infinite;
     -webkit-animation-delay: -5s;
             animation-delay: -5s;
   }
   
   .snow div:nth-child(4) {
     left: 50%;
-    -webkit-animation: falling 18s linear infinite;
-            animation: falling 18s linear infinite;
+    -webkit-animation: falling 8s linear infinite;
+            animation: falling 8s linear infinite;
     -webkit-animation-delay: -6s;
             animation-delay: -6s;
   }
   
   .snow div:nth-child(5) {
     left: 85%;
-    -webkit-animation: falling 15s linear infinite;
-            animation: falling 15s linear infinite;
+    -webkit-animation: falling 5s linear infinite;
+            animation: falling 5s linear infinite;
     -webkit-animation-delay: -8s;
             animation-delay: -8s;
   }
   
   .snow div:nth-child(6) {
     left: 15%;
-    -webkit-animation: falling 12s linear infinite;
-            animation: falling 12s linear infinite;
+    -webkit-animation: falling 8s linear infinite;
+            animation: falling 8s linear infinite;
     -webkit-animation-delay: -10s;
             animation-delay: -10s;
   }
   
   .snow div:nth-child(7) {
     left: 90%;
-    -webkit-animation: falling 13s linear infinite;
-            animation: falling 13s linear infinite;
+    -webkit-animation: falling 3s linear infinite;
+            animation: falling 3s linear infinite;
     -webkit-animation-delay: -4s;
             animation-delay: -4s;
   }
@@ -106,7 +106,7 @@ section {
   .snow2 {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 19%;
     top: 0;
     left: 0;
   }
@@ -124,56 +124,56 @@ section {
   
   .snow2 div:nth-child(1) {
     left: 10%;
-    -webkit-animation: falling 17s linear infinite;
-            animation: falling 17s linear infinite;
+    -webkit-animation: falling 7s linear infinite;
+            animation: falling 7s linear infinite;
     -webkit-animation-delay: -3s;
             animation-delay: -3s;
   }
   
   .snow2 div:nth-child(2) {
     left: 65%;
-    -webkit-animation: falling 15s linear infinite;
-            animation: falling 15s linear infinite;
+    -webkit-animation: falling 5s linear infinite;
+            animation: falling 5s linear infinite;
     -webkit-animation-delay: -1s;
             animation-delay: -1s;
   }
   
   .snow2 div:nth-child(3) {
     left: 17%;
-    -webkit-animation: falling 26s linear infinite;
-            animation: falling 26s linear infinite;
+    -webkit-animation: falling 6s linear infinite;
+            animation: falling 6s linear infinite;
     -webkit-animation-delay: -9s;
             animation-delay: -9s;
   }
   
   .snow2 div:nth-child(4) {
     left: 3%;
-    -webkit-animation: falling 19s linear infinite;
-            animation: falling 19s linear infinite;
+    -webkit-animation: falling 9s linear infinite;
+            animation: falling 9s linear infinite;
     -webkit-animation-delay: -3s;
             animation-delay: -3s;
   }
   
   .snow2 div:nth-child(5) {
     left: 75%;
-    -webkit-animation: falling 20s linear infinite;
-            animation: falling 20s linear infinite;
+    -webkit-animation: falling 2s linear infinite;
+            animation: falling 2s linear infinite;
     -webkit-animation-delay: -7s;
             animation-delay: -7s;
   }
   
   .snow2 div:nth-child(6) {
     left: 10%;
-    -webkit-animation: falling 17s linear infinite;
-            animation: falling 17s linear infinite;
+    -webkit-animation: falling 7s linear infinite;
+            animation: falling 7s linear infinite;
     -webkit-animation-delay: -6s;
             animation-delay: -6s;
   }
   
   .snow2 div:nth-child(7) {
     left: 80%;
-    -webkit-animation: falling 11s linear infinite;
-            animation: falling 11s linear infinite;
+    -webkit-animation: falling 4s linear infinite;
+            animation: falling 4s linear infinite;
     -webkit-animation-delay: -10s;
             animation-delay: -10s;
   }
@@ -181,7 +181,7 @@ section {
   .snow3 {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 19%;
     top: 0;
     left: 0;
   }
@@ -199,56 +199,56 @@ section {
   
   .snow3 div:nth-child(1) {
     left: 15%;
-    -webkit-animation: falling 15s linear infinite;
-            animation: falling 15s linear infinite;
+    -webkit-animation: falling 5s linear infinite;
+            animation: falling 5s linear infinite;
     -webkit-animation-delay: -9s;
             animation-delay: -9s;
   }
   
   .snow3 div:nth-child(2) {
     left: 25%;
-    -webkit-animation: falling 14s linear infinite;
-            animation: falling 14s linear infinite;
+    -webkit-animation: falling 4s linear infinite;
+            animation: falling 4s linear infinite;
     -webkit-animation-delay: -4s;
             animation-delay: -4s;
   }
   
   .snow3 div:nth-child(3) {
     left: 30%;
-    -webkit-animation: falling 20s linear infinite;
-            animation: falling 20s linear infinite;
+    -webkit-animation: falling 3s linear infinite;
+            animation: falling 3s linear infinite;
     -webkit-animation-delay: -5s;
             animation-delay: -5s;
   }
   
   .snow3 div:nth-child(4) {
     left: 85%;
-    -webkit-animation: falling 12s linear infinite;
-            animation: falling 12s linear infinite;
+    -webkit-animation: falling 6s linear infinite;
+            animation: falling 6s linear infinite;
     -webkit-animation-delay: -8s;
             animation-delay: -8s;
   }
   
   .snow3 div:nth-child(5) {
     left: 78%;
-    -webkit-animation: falling 11s linear infinite;
-            animation: falling 11s linear infinite;
+    -webkit-animation: falling 5s linear infinite;
+            animation: falling 5s linear infinite;
     -webkit-animation-delay: -7s;
             animation-delay: -7s;
   }
   
   .snow3 div:nth-child(6) {
     left: 30%;
-    -webkit-animation: falling 16s linear infinite;
-            animation: falling 16s linear infinite;
+    -webkit-animation: falling 6s linear infinite;
+            animation: falling 6s linear infinite;
     -webkit-animation-delay: -8s;
             animation-delay: -8s;
   }
   
   .snow3 div:nth-child(7) {
     left: 92%;
-    -webkit-animation: falling 15s linear infinite;
-            animation: falling 15s linear infinite;
+    -webkit-animation: falling 5s linear infinite;
+            animation: falling 5s linear infinite;
     -webkit-animation-delay: -19s;
             animation-delay: -19s;
   }
