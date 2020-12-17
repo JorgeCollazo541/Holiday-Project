@@ -284,3 +284,17 @@ section {
               transform: translateX -100px rotateX(200deg);
     }
   }
+
+  iv#footer {
+    width: 50%;
+    margin: -250px auto;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  div#footer button {
+    clear: both;
+    font-size: 1.5em;
+    border-radius: 20px;
+    margin-bottom: 40px;
+  }
