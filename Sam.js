@@ -13,7 +13,7 @@ window.addEventListener("scroll", scrollEventHandler, false);
 var imgArray = new Array();
 
 imgArray[0] = new Image();
-imgArray[0].src = 'Images/';
+imgArray[0].src = 'Images/tablet.jpg';
 
 function nextImage(element)
 {

@@ -13,7 +13,16 @@ window.addEventListener("scroll", scrollEventHandler, false);
 var imgArray = new Array();
 
 imgArray[0] = new Image();
-imgArray[0].src = 'Images/';
+imgArray[0].src = 'Images/dualsense.png';
+
+imgArray[1] = new Image();
+imgArray[1].src = 'Images/chargingstation.png';
+
+imgArray[2] = new Image();
+imgArray[2].src = 'Images/drawingpen.png';
+
+imgArray[3] = new Image();
+imgArray[3].src = '';
 
 function nextImage(element)
 {

@@ -13,7 +13,16 @@ window.addEventListener("scroll", scrollEventHandler, false);
 var imgArray = new Array();
 
 imgArray[0] = new Image();
-imgArray[0].src = 'Images/';
+imgArray[0].src = 'Images/pro_controller.jpeg';
+
+imgArray[1] = new Image();
+imgArray[1].src = 'Images/ps5.png';
+
+imgArray[2] = new Image();
+imgArray[2].src = 'Images/giftcards.png';
+
+imgArray[3] = new Image();
+imgArray[3].src = 'Images/earbuds.png';
 
 function nextImage(element)
 {
